@@ -3,7 +3,7 @@ import { StyleSheet, Text, FlatList, View, Alert} from 'react-native'
 import { useState } from 'react'
 import Header from './components/header'
 import ToDoItem from './components/todoItem'
-import AddToDo from './components/addtodo.js'
+import AddToDo from './components/addtodo'
 export default function App() {
 
   const [todos, setTodos] = useState([
