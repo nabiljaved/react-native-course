@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Header from './components/header'
 import ToDoItem from './components/todoItem'
 import AddToDo from './components/addtodo'
+import {MaterialIcons} from '@expo/vector-icons'
 export default function App() {
 
   const [todos, setTodos] = useState([
@@ -54,15 +55,15 @@ const styles = StyleSheet.create({
   container: {  
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop:40,
-    paddingHorizontal:20
-    // alignItems: 'center',
-    // justifyContent: 'center',
   },
   content:{
-    padding:40
+    padding:40,
+    flex:1
   }, 
   list:{
-    padding:30
+    flex:1,
+    marginTop:20,
+    
+
   }
 });
