@@ -10,7 +10,8 @@ export default function App() {
 
     {text:'buy coffee for me', key:'1'},
     {text:'create an app for me', key:'2'},
-    {text:'play on the beach', key:'3'}
+    {text:'play on the beach', key:'3'},
+    {text:'surfing on island', key:'4'}
   ])
 
   const pressHandler = (id) => {
